@@ -1,0 +1,10 @@
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+
+### Sass ###
+*.css.map
+*.sass.map
+*.scss.map

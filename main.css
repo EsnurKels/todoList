@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.fa-list-check {
+  color: #860A35;
+  animation: todo-list-title-animate 1s infinite; }
+
+h1 {
+  color: #000;
+  font-weight: 300; }
+
+@keyframes todo-list-title-animate {
+  0% {
+    transform: scale(0.9); }
+  50% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0.9); } }
+#taskInput {
+  border-radius: 0;
+  padding: 0.5em; }
+  #taskInput:focus {
+    outline: none;
+    border-right: 0px solid transparent;
+    border-color: #AF2655;
+    box-shadow: 0px 0px 5px #AF2655; }
+
+.btn-task {
+  color: #fff;
+  border: 0.5px solid transparent;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background-color: #AF2655;
+  transition: 0.5s; }
+  .btn-task:hover {
+    background-color: #F3F3F3;
+    border: 0.5px solid #AF2655;
+    color: #860A35; }
+
+#taskDelete {
+  width: 25px;
+  height: 25px;
+  border: 0.5px solid transparent;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  font-size: 14px; }
+  #taskDelete:hover {
+    border: 0.5px solid #AF2655;
+    border-radius: 1em; }
+
+.task-text-underline {
+  color: #A3B763;
+  text-decoration: line-through; }
+
+body {
+  background-color: #F3F3F3;
+  font-family: "Open Sans", sans-serif; }
