@@ -10,7 +10,8 @@ function addTask() {
 
     if (taskText !== "") {
         // Büyük harf
-        const formattedTask = taskText.replace(/\b\w/g, l => l.toUpperCase());
+        const formattedTask = taskText.charAt(0).toLocaleUpperCase('tr-TR') + taskText.slice(1);
+
 
         // Yeni görevi listeye ekle
         tasks.push(formattedTask);
